@@ -1,6 +1,6 @@
 package com.starion.loki.basics.linear;
 
-public class First {
+public class Task_1 {
 
     public static void main(String[] args) {
 

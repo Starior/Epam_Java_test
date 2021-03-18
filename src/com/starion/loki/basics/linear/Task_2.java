@@ -2,7 +2,7 @@ package com.starion.loki.basics.linear;
 
 import static java.lang.Math.*;
 
-public class Second {
+public class Task_2 {
     public static void main(String[] args) {
 
         double z;
