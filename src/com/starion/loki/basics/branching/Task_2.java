@@ -7,7 +7,7 @@ public class Task_2 {
         int c = 352;
         int d = 232;
 
-        System.out.println(Math.max(Math.min(a,b), Math.min(c,d)));
-        
+        System.out.println(Math.max(Math.min(a, b), Math.min(c, d)));
+
     }
 }
