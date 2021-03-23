@@ -1,4 +1,4 @@
-package com.starion.loki.basics.com.branching;
+package com.starion.loki.basics.branching;
 
 public class Task_1 {
     public static void main(String[] args) {
