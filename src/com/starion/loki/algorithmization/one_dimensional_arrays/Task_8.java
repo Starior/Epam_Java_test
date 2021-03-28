@@ -1,15 +1,9 @@
 package com.starion.loki.algorithmization.one_dimensional_arrays;
-/*
-. Дана последовательность целых чисел
-        a a an
-        , , ,
-        1 2 
-        . Образовать новую последовательность, выбросив из
-        исходной те члены, которые равны
-        min( , , , ) a1 a2  an
-        .
+/* Дана последовательность целых чисел
+        a1, a2, an...
+   Образовать новую последовательность, выбросив из исходной те члены, которые равны
+        min(a1, a2, an...)
 */
-
 import java.util.Arrays;
 
 public class Task_8 {
@@ -33,9 +27,9 @@ public class Task_8 {
 
         k = 0;
 
-        for (int i = 0; i < nums.length; i++)
-            if (nums[i] != min) {
-                numsNew[k] = nums[i];
+        for (int num : nums)
+            if (num != min) {
+                numsNew[k] = num;
                 k++;
             }
         System.out.println(Arrays.toString(numsNew));
