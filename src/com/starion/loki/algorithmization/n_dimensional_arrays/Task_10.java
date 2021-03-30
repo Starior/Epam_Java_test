@@ -1,13 +1,13 @@
 package com.starion.loki.algorithmization.n_dimensional_arrays;
 
-import java.util.Arrays;
+/*Найти положительные элементы главной диагонали квадратной матрицы.*/
 
 import static java.lang.Math.random;
 
-public class Task_1 {
+public class Task_10 {
     public static void main(String[] args) {
         int[][] nums;
-        int n = 20;
+        int n = 10;
         nums = new int[n][n];
         for (int i = 0; i <= nums.length - 1; i++) {
             for (int j = 0; j <= nums.length - 1; j++) {
@@ -16,14 +16,12 @@ public class Task_1 {
             }
             System.out.println();
         }
-
-        System.out.println("Все нечетные столбцы, у которых первый элемент больше последнего:");
+        System.out.println("Положительные лементы, стоящие на главной диагонали:");
         for (int i = 0; i <= nums.length - 1; i++) {
-            for (int j = 1; j <= nums.length - 1; j += 2) {
-                if (nums[0][j] > nums[nums.length - 1][j])
+            for (int j = 0; j <= nums.length - 1; j++) {
+                if (i == j&& nums[i][j]>0)
                     System.out.printf("%5.3s", nums[i][j]);
             }
-            System.out.println();
         }
     }
 }
