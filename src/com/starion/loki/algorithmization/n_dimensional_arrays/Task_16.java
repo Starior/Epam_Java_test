@@ -4,7 +4,7 @@ public class Task_16 {
     public static void main(String[] args) {
         int[][] nums;
         int[][] numsTemp;
-        int n = 8;
+        int n = 15;
         nums = new int[n][n];
         final int i1 = (nums.length) * ((nums.length) * (nums.length) + 1) / 2;
         System.out.println(i1);
@@ -24,18 +24,21 @@ public class Task_16 {
             notFourMatrix(numsTemp, n);
             notFourPacking(numsTemp, n);
             print(numsTemp);
+            //System.out.println(check(numsTemp));
         } else if (n % 2 != 0) {
             numsTemp = new int[n + n + 1][n + n + 1];
             oddMatrix(numsTemp, n, 1);
             oddPacking(numsTemp, n);
             oddToN(nums, numsTemp);
             print(nums);
+            //System.out.println(check(nums));
         } else if (n % 2 == 0) {
             numsTemp = new int[n + n - 2][n];
             fourMatrix(numsTemp, n);
             fourPacking(numsTemp, n);
             fourToN(nums, numsTemp);
             print(nums);
+            //System.out.println(check(nums));
         }
 
     }
@@ -55,11 +58,15 @@ public class Task_16 {
                 sum = sum + nums[i][j];
                 sumCol = sumCol + nums[j][i];
             }
+            //System.out.println(sum);
+            //System.out.println(sumCol);
             if (sum != i1 || sumCol != i1) {
                 // System.out.println(sum);
                 return false;
             }
         }
+        //System.out.println(sumDM);
+        //System.out.println(sumDO);
         if (sumDM != i1 || sumDO != i1) {
             // System.out.println(sum);
             return false;
@@ -263,7 +270,7 @@ public class Task_16 {
                     numsTemp[i][j] = numsTemp[i + n / 2][j];
                     numsTemp[i + n / 2][j] = temp;
                 }
-                if (i == n / 2 / 2 && j > 0 && j <= n / 2 / 2 + 1) {
+                if (i == n / 2 / 2 && j > 0 && j < n / 2 / 2 + 1) {
                     temp = numsTemp[i][j];
                     numsTemp[i][j] = numsTemp[i + n / 2][j];
                     numsTemp[i + n / 2][j] = temp;
