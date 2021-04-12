@@ -1,8 +1,11 @@
 package com.starion.loki.algorithmization.one_dimensional_arrays;
 
+/*Задана последовательность N вещественных чисел.
+Вычислить сумму чисел, порядковые номера которых
+являются простыми числами.*/
 public class Task_6 {
     public static void main(String[] args) {
-        int[] nums = {4, 2, -23, 5, 81, 0, 23, 7, 234, 234, 42, 100};
+        int[] nums = {4, 2, -23, 5};
         int sum = 0;
         for (int i = 2; i <= nums.length - 1; i++) {
             int d = 0;
