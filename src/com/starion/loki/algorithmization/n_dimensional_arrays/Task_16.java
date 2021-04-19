@@ -1,5 +1,13 @@
 package com.starion.loki.algorithmization.n_dimensional_arrays;
 
+/*
+A magic square of order n is an nxn square matrix composed of the numbers 1, 2, 3, ..., n ^ 2
+so that the sums for each column, each row and each of the two large diagonals are equal.
+Construct such a square. An example of a magic square of order 3:
+        6 1 8
+        7 5 3
+        2 9 4
+*/
 public class Task_16 {
     public static void main(String[] args) {
         int[][] nums;

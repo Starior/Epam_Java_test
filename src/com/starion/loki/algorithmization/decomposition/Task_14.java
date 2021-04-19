@@ -6,7 +6,7 @@ package com.starion.loki.algorithmization.decomposition;
 /*Ошибка описания числа Армстронга?*/
 public class Task_14 {
     public static void main(String[] args) {
-        int k = 12345;
+        int k = 66345;
 
         for (int i = 1; i <= k; i++) {
             if (Math.pow(sumNumbers(i), countingLength(i)) == i) {

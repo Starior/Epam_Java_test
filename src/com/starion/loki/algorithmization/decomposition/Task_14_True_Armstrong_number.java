@@ -6,7 +6,7 @@ package com.starion.loki.algorithmization.decomposition;
 
 public class Task_14_True_Armstrong_number {
     public static void main(String[] args) {
-        int k = 12345;
+        int k = 66345;
         for (int i = 1; i <= k; i++) {
             if (sumNumbersInPow(i) == i) {
                 System.out.println(" Число " + i + " является числом Армстронга.");
