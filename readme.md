@@ -22,11 +22,8 @@
    Display the given duration value in hours, minutes and seconds in the following form: HH MM SS.
 6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/linear/Task_6.java)
    For this area, write a linear program that prints "true" if the point with coordinates (x, y)
-   belongs to the filled area, and "false" otherwise:  
-   ![dsftgsdfg](img/с1-6.png)
-   <div align="center"> <img src=img/с1-6.png> ![dsftgsdfg](img/с1-6.png) </div>
-<img src="img/с1-6.png">
+   belongs to the filled area, and "false" otherwise:
+<p align="center"><img src="img/с1-6.png"></p>
 
-<p align="center">
-  <img width="460" height="300" src="img/с1-6.png">
-</p>
+### Branching
+
