@@ -51,7 +51,38 @@
    Calculate the value of the function:
    <p align="center"><img src="https://latex.codecogs.com/svg.image?F(x)=\begin{cases}x^{2}-3x&plus;9,&space;&&space;\text{&space;if&space;}&space;x&space;\leqslant&space;3;&space;\\\frac{1}{x^{3}&plus;6},&space;&&space;\text{&space;if&space;}&space;x&space;>&space;3&space;.\end{cases}" title="F(x)=\begin{cases}x^{2}-3x+9, & \text{ if } x \leqslant 3; \\\frac{1}{x^{3}+6}, & \text{ if } x > 3 .\end{cases}" /> </p>
 
+### Cycles
 
-<img src="https://latex.codecogs.com/svg.image?F(x)=\begin{cases}x^{2}-3x&plus;9,&space;&&space;\text{&space;if&space;}&space;x&space;\leqslant&space;3;&space;\\\frac{1}{x^{3}&plus;6},&space;&&space;\text{&space;if&space;}&space;x&space;>&space;3&space;.\end{cases}" title="F(x)=\begin{cases}x^{2}-3x+9, & \text{ if } x \leqslant 3; \\\frac{1}{x^{3}+6}, & \text{ if } x > 3 .\end{cases}" />
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_1.java)
+   Write a program where the user enters any positive integer. And the program adds up all numbers
+   from 1 to the number entered by the user.
 
-<img src="https://latex.codecogs.com/svg.image?F(x)=\begin{cases}x^{2}-3x&plus;9,&space;&&space;\text{&space;if&space;}&space;x&space;\leqslant&space;3;&space;\\\frac{1}{x^{3}&plus;6},&space;&&space;\text{&space;if&space;}&space;x&space;>&space;3&space;.\end{cases}" title="F(x)=\begin{cases}x^{2}-3x+9, & \text{ if } x \leqslant 3; \\\frac{1}{x^{3}+6}, & \text{ if } x > 3 .\end{cases}" />
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_2.java)
+   Calculate the values of the function on the segment [a, b] with step h:
+   <p align="center"><img src="https://latex.codecogs.com/svg.image?y=\begin{cases}&space;x,&space;&&space;\text{&space;if&space;}&space;x&space;>&space;2&space;\\-x,&space;&&space;\text{&space;if&space;}&space;x&space;\leqslant&space;2&space;\end{cases}" title="y=\begin{cases} x, & \text{ if } x > 2 \\-x, & \text{ if } x \leqslant 2 \end{cases}" /> </p>
+
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_3.java)
+   Find the sum of the squares of the first hundred numbers.
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_4.java)
+   Make a program for finding the multiplication of the squares of the first two hundred numbers.
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_5.java)
+   A series of number and some number "e" are given. Find the sum of those members of the series
+   whose modulus is greater than or equal to a given "e". The general member of the series is:
+   <p align="center"><img src="https://latex.codecogs.com/svg.image?a_{n}=\frac{1}{a^{n}}&plus;\frac{1}{3^{n}}" title="a_{n}=\frac{1}{a^{n}}+\frac{1}{3^{n}}" /></p>
+
+6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_6.java)
+   Display the correspondences between symbols and their numerical designations in the computer
+   memory.
+
+7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_7.java)
+   For each natural number in the range from "m" to "n", output all divisors except one and the
+   number itself. "m" and "n" are entered from the keyboard.
+
+8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_8.java) [[via HashSet]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/cycles/Task_8_HashSet.java)
+   Two numbers are given. Determine the numbers included in the recording of both the first and
+   second numbers
+
+
+
