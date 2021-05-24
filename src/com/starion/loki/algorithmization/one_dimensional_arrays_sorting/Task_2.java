@@ -1,34 +1,39 @@
 package com.starion.loki.algorithmization.one_dimensional_arrays_sorting;
 
+/*Two sequences are given a1≤ a2≤...≤ an and b1≤ b2≤...≤ bm.
+    Form a new sequence of numbers from them so that it is also non-decreasing.
+    Note.Do not use an additional array.*/
+
 import java.util.Arrays;
 
 public class Task_2 {
-    public static void main(String[] args) {
 
-        int[] nums1 = {-5, 1, 4, 7, 66, 777};
-        int count1 = 0;
-        int[] nums2 = {-10, 0, 2, 44, 234, 634,};
-        int count2 = 0;
-        int[] nums3;
-        nums3 = new int[nums1.length + nums2.length];
+  public static void main(String[] args) {
 
-        for (int i = 0; i < nums3.length; i++) {
-            if (count1 == nums1.length) {
-                nums3[i] = nums2[count2];
-            }
-            if (count2 == nums2.length) {
-                nums3[i] = nums1[count1];
-            }
-            if (count1 < nums1.length && count2 < nums2.length) {
-                if (nums1[count1] < nums2[count2]) {
-                    nums3[i] = nums1[count1];
-                    count1++;
-                } else if (nums1[count1] > nums2[count2]) {
-                    nums3[i] = nums2[count2];
-                    count2++;
-                }
-            }
+    int[] firstSequence = {-5, 1, 4, 7, 66, 777};
+    int firstSequenceCount = 0;
+    int[] secondSequence = {-10, 0, 2, 44, 234, 634,};
+    int secondSequenceCount = 0;
+    int[] newSequence = new int[firstSequence.length + secondSequence.length];
+
+    for (int i = 0; i < newSequence.length; i++) {
+      if (firstSequenceCount == firstSequence.length) {
+        newSequence[i] = secondSequence[secondSequenceCount];
+      }
+      if (secondSequenceCount == secondSequence.length) {
+        newSequence[i] = firstSequence[firstSequenceCount];
+      }
+      if (firstSequenceCount < firstSequence.length
+          && secondSequenceCount < secondSequence.length) {
+        if (firstSequence[firstSequenceCount] < secondSequence[secondSequenceCount]) {
+          newSequence[i] = firstSequence[firstSequenceCount];
+          firstSequenceCount++;
+        } else if (firstSequence[firstSequenceCount] > secondSequence[secondSequenceCount]) {
+          newSequence[i] = secondSequence[secondSequenceCount];
+          secondSequenceCount++;
         }
-        System.out.println(Arrays.toString(nums3));
+      }
     }
+    System.out.println(Arrays.toString(newSequence));
+  }
 }

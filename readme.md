@@ -84,5 +84,207 @@
    Two numbers are given. Determine the numbers included in the recording of both the first and
    second numbers
 
+## 2. Algorithmization
 
+### One-dimensional arrays
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_1.java)
+   The array A [N] contains natural numbers. Find the sum of those elements that are multiples of a
+   given K.
+
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_2.java)
+   A sequence of real numbers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> is given. Replace all
+   its members greater than the given Z with this number. Count the number of substitutions.
+
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_3.java)
+   An array of real numbers is given, the dimension of which is N. Calculate how many negative,
+   positive and zero elements there are.
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_4.java)
+   There are real numbers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>. Swap the largest and
+   smallest elements.
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_5.java)
+   Integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> are given. Print only those numbers for
+   which a<sub>i</sub> > i.
+
+6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_6.java)
+   A sequence of N real numbers is given. Calculate the sum of numbers whose ordinal numbers are
+   prime numbers.
+
+7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_7.java)
+   Real numbers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> are given. Find:
+   <p align="center">max(a<sub>1</sub> + a<sub>2n</sub>, a<sub>2</sub> + a<sub>2n-1</sub>,..., a<sub>n</sub> + a<sub>n+1</sub>)</p>
+
+8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_8.java)
+   A sequence of integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> is given. Form a new
+   sequence by discarding from the original those terms that are equal to min(a<sub>1</sub>, a<sub>
+   2</sub>, ..., a<sub>n</sub>).
+
+9. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_9.java)
+   Find the most frequent number in an array of integers with n elements. If there are several such
+   numbers, then determine the smallest of them.
+
+10. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays/Task_10.java)
+    An integer array is given with the number of elements n. Compress the array by discarding every
+    second element from it (fill the vacated elements with zeros). Note: Do not use an additional
+    array.
+
+### N-dimensional arrays
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_1.java)
+   A matrix is given. Display all odd columns with the first element greater than the last.
+
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_2.java)
+   A square matrix is given. Display the elements on the diagonal.
+
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_3.java)
+   A matrix is given. Print the k-th row and p-th column of the matrix.
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_4.java)
+   Form a square matrix of order n according to a given pattern (n is even):
+   <p align="center"> <img src="https://latex.codecogs.com/svg.image?\begin{pmatrix}1&space;&&space;2&space;&&space;3&space;&&space;...&space;&&space;n&space;\\n&space;&&space;n-1&space;&&space;n-2&space;&&space;...&space;&&space;1&space;\\1&space;&&space;2&space;&&space;3&space;&&space;...&space;&&space;n&space;\\n&space;&&space;n-1&space;&&space;n-2&space;&&space;...&space;&&space;1&space;\\\vdots&space;&space;&&space;\vdots&space;&space;&&space;\vdots&space;&space;&&space;\ddots&space;&space;&&space;\vdots&space;&space;\\n&space;&&space;n-1&space;&&space;n-2&space;&&space;...&space;&&space;1&space;\\\end{pmatrix}" title="\begin{pmatrix}1 & 2 & 3 & ... & n \\n & n-1 & n-2 & ... & 1 \\1 & 2 & 3 & ... & n \\n & n-1 & n-2 & ... & 1 \\\vdots & \vdots & \vdots & \ddots & \vdots \\n & n-1 & n-2 & ... & 1 \\\end{pmatrix}" /> </p>
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_5.java)
+   Form a square matrix of order n according to a given pattern (n is even):
+   <p align="center"> <img src="https://latex.codecogs.com/svg.image?\begin{pmatrix}1&space;&&space;1&space;&&space;1&space;&&space;...&space;&&space;1&space;&&space;1&space;&&space;1&space;\\2&space;&&space;2&space;&&space;2&space;&&space;...&space;&&space;2&space;&&space;2&space;&&space;0&space;\\3&space;&&space;3&space;&&space;3&space;&&space;...&space;&&space;3&space;&&space;0&space;&&space;0&space;\\\vdots&space;&space;&&space;\vdots&space;&space;&&space;\vdots&space;&space;&&space;\ddots&space;&space;&&space;\vdots&space;&space;&&space;\vdots&space;&space;&&space;\vdots&space;&space;\\n-1&space;&&space;n-1&space;&&space;0&space;&&space;...&space;&&space;0&space;&&space;0&space;&&space;0&space;\\n&space;&&space;0&space;&&space;0&space;&&space;...&space;&&space;0&space;&&space;0&space;&&space;0&space;\\\end{pmatrix}" title="\begin{pmatrix}1 & 1 & 1 & ... & 1 & 1 & 1 \\2 & 2 & 2 & ... & 2 & 2 & 0 \\3 & 3 & 3 & ... & 3 & 0 & 0 \\\vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\n-1 & n-1 & 0 & ... & 0 & 0 & 0 \\n & 0 & 0 & ... & 0 & 0 & 0 \\\end{pmatrix}" /> </p>
+
+6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_6.java)
+   Form a square matrix of order n according to a given pattern (n is even):
+   <p align="center"> <img src="https://latex.codecogs.com/svg.image?\begin{pmatrix}1&space;&&space;1&space;&&space;1&space;&&space;...&space;&&space;1&space;&&space;1&space;&&space;1&space;\\0&space;&&space;1&space;&&space;1&space;&&space;...&space;&&space;1&space;&&space;1&space;&&space;0&space;\\0&space;&&space;0&space;&&space;1&space;&&space;...&space;&&space;1&space;&&space;0&space;&&space;0&space;\\\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;\\0&space;&&space;1&space;&&space;1&space;&&space;...&space;&&space;1&space;&&space;1&space;&&space;0&space;\\1&space;&&space;1&space;&&space;1&space;&&space;...&space;&&space;1&space;&&space;1&space;&&space;1&space;\\\end{pmatrix}" title="\begin{pmatrix}1 & 1 & 1 & ... & 1 & 1 & 1 \\0 & 1 & 1 & ... & 1 & 1 & 0 \\0 & 0 & 1 & ... & 1 & 0 & 0 \\\vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\0 & 1 & 1 & ... & 1 & 1 & 0 \\1 & 1 & 1 & ... & 1 & 1 & 1 \\\end{pmatrix}" /> </p>
+
+7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_7.java)
+   Form a square matrix of order N according to the rule:
+   <p align="center"> <img src="https://latex.codecogs.com/svg.image?A[I,J]=sin\left&space;(&space;\frac{I^{2}-J^{2}}{N}&space;\right&space;)" title="A[I,J]=sin\left ( \frac{I^{2}-J^{2}}{N} \right )" /> </p>
+   and count the number of positive elements in it.
+
+8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_8.java)
+   In a numerical matrix, swap any two columns, that is, put all the elements of one column in the
+   corresponding positions of the other, and move the elements of the second to the first. Column
+   numbers are entered by the user from the keyboard.
+
+9. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_9.java)
+   A matrix of non-negative numbers is given. Calculate the sum of the items in each column.
+   Determine which column contains the maximum sum.
+
+10. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_10.java)
+    Find the positive elements of the main diagonal of a square matrix.
+
+11. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_11.java)
+    Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itself and the row
+    numbers in which the number 5 occurs three or more times.
+
+12. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_12.java)
+    Sort matrix rows in ascending and descending order of element values.
+
+13. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_13.java)
+    Sort matrix columns in ascending and descending order of element values.
+
+14. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_14.java)
+    Generate a random m x n matrix consisting of zeros and ones, with the number of ones in each
+    column being equal to the column number.
+
+15. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_15.java)
+    Find the largest element of the matrix and replace all odd elements with it.
+
+16. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_16.java) [[n=3 shuffle]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/n_dimensional_arrays/Task_16_three_n_shuffle.java)
+    A magic square of order N is an NxN square matrix composed of the numbers 1, 2, 3, ..., N<sup>
+    2</sup> so that the sums for each column, each row and each of the two large diagonals are
+    equal. Construct such a square. An example of a magic square of order 3:
+    <p align="center"> 6 1 8 </p>
+    <p align="center"> 7 5 3 </p>
+    <p align="center"> 2 9 4 </p>
+
+### One-dimensional arrays - sorting
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_1.java)
+   Two one-dimensional arrays with different number of elements and a natural number k are given.
+   Combine them into one array, including the second array between the k-th and (k+1)-th elements of
+   the first, without using an additional array.
+
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_2.java)
+   Two sequences are given a<sub>1</sub>≤ a<sub>2</sub>≤...≤ a<sub>n</sub> and b<sub>1</sub>≤ b<sub>
+   2</sub>≤...≤ b<sub>m</sub>. Form a new sequence of numbers from them so that it is also
+   non-decreasing. Note. Do not use an additional array.
+
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_3.java)
+   Selection sort. Sequence of numbers a<sub>1</sub>≤ a<sub>2</sub>≤...≤ a<sub>n</sub> is given. It
+   is required to rearrange the elements so that they are arranged in descending order. To do this,
+   in the array, starting from the first, the largest element is selected and put in the first
+   place, and the first - in the place of the largest. Then, starting from the second, this
+   procedure is repeated. Write a selection sorting algorithm.
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_4.java)
+   Bubble sort. Sequence of numbers a<sub>1</sub>≤ a<sub>2</sub>≤...≤ a<sub>n</sub> is given. It is
+   required to rearrange the numbers in ascending order. For this, two adjacent numbers a<sub>
+   i</sub> and a<sub>i+1</sub> are compared. If a<sub>i</sub> > a<sub>i+1</sub>, then a permutation
+   is done. This continues until all the elements are arranged in ascending order. Create a sorting
+   algorithm, while counting the number of permutations.
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_5.java)
+   Insertion sort. Sequence of numbers a<sub>1</sub>≤ a<sub>2</sub>≤...≤ a<sub>n</sub> is given. It
+   is required to rearrange the numbers in ascending order. This is done as follows. Let a<sub>
+   1</sub>≤a<sub>2</sub>≤...≤a<sub>i</sub> be an ordered sequence, that is, a<sub>1</sub>≤a<sub>
+   2</sub>≤...≤a<sub>n</sub>. The next number a<sub>i+1</sub> is taken and inserted into the
+   sequence so that the new sequence is also increasing. The process is carried out until all
+   elements from i +1 to n are enumerated. Note. Place the next element in the sorted part using a
+   binary search. Binary search should be presented as a separate function.
+
+6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_6.java)
+   Shell sort. An array of n real numbers is given. Sort it in ascending order. This is done as
+   follows: two neighboring elements a<sub>i</sub> and a<sub>i+1</sub> are compared. If a<sub>
+   i</sub>≤ a<sub>i+1</sub>, then move forward one element. If a<sub>i</sub>> a<sub>i+1</sub>, then
+   a permutation is performed and shifted one element back. Create an algorithm for this sorting.
+
+7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_7.java)
+   Two non-decreasing sequences of real numbers a<sub>1</sub>≤ a<sub>2</sub>≤...≤ a<sub>n</sub> and
+   b<sub>1</sub>≤ b<sub>2</sub>≤...≤ b<sub>m</sub> are given. It is required to indicate the places
+   where the elements of the sequence b<sub>1</sub>≤ b<sub>2</sub>≤...≤ b<sub>m</sub> should be
+   inserted into the first sequence so that the new sequence remains increasing
+
+8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/one_dimensional_arrays_sorting/Task_8.java)
+   Fractions <em>p<sub>1</sub></em>/<em>q<sub>1</sub></em>, <em>p<sub>2</sub></em>/<em>q<sub>
+   2</sub></em>, ..., <em>p<sub>n</sub></em>/<em>q<sub>n</sub></em>, (<em>p<sub>i</sub></em>, <em>
+   q<sub>i</sub></em> - natural) are given. Write a program that brings these fractions to a common
+   denominator and orders them in ascending order.
+
+### Decomposition
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_1.java)
+   Write a method(s) for finding the greatest common divisor and the least common multiple of
+   two natural numbers:
+    <p align="center"> <img src="https://latex.codecogs.com/svg.image?\left&space;(&space;LCM(A,&space;B)=\frac{A\cdot&space;B}{GCD(A,&space;B)}&space;\right&space;)" title="\left ( LCM(A, B)=\frac{A\cdot B}{GCD(A, B)} \right )" /> </p>
+
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_2.java)
+   Write a method(s) for finding the greatest common divisor of four natural numbers.
+   
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_3.java)
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_4.java)
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_5.java)
+
+6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_6.java)
+
+7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_7.java)
+
+8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_8.java)
+
+9. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_9.java)
+
+10. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_10.java)
+
+11. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_11.java)
+
+12. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_12.java)
+
+13. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_13.java)
+
+14. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_14.java) [[True Armstrong number]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_14_True_Armstrong_number.java)
+
+15. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_15.java)
+
+16. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_16.java)
+
+17. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_17.java)
 
