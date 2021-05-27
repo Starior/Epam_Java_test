@@ -191,9 +191,7 @@
     A magic square of order N is an NxN square matrix composed of the numbers 1, 2, 3, ..., N<sup>
     2</sup> so that the sums for each column, each row and each of the two large diagonals are
     equal. Construct such a square. An example of a magic square of order 3:
-    <p align="center"> 6 1 8 </p>
-    <p align="center"> 7 5 3 </p>
-    <p align="center"> 2 9 4 </p>
+    <p align="center"> 6 1 8 </p><p align="center"> 7 5 3 </p><p align="center"> 2 9 4 </p>
 
 ### One-dimensional arrays - sorting
 
@@ -251,40 +249,71 @@
 ### Decomposition
 
 1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_1.java)
-   Write a method(s) for finding the greatest common divisor and the least common multiple of
-   two natural numbers:
+   Write a method(s) for finding the greatest common divisor and the least common multiple of two
+   natural numbers:
     <p align="center"> <img src="https://latex.codecogs.com/svg.image?\left&space;(&space;LCM(A,&space;B)=\frac{A\cdot&space;B}{GCD(A,&space;B)}&space;\right&space;)" title="\left ( LCM(A, B)=\frac{A\cdot B}{GCD(A, B)} \right )" /> </p>
 
 2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_2.java)
    Write a method(s) for finding the greatest common divisor of four natural numbers.
-   
+
 3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_3.java)
+   Calculate the area of a regular hexagon with side 'a' using the triangle area method
 
 4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_4.java)
+   On the plane, n points are given by their coordinates. Write a method (methods) that determine
+   which of the pairs of points is the greatest distance. Indication. Enter the coordinates of the
+   points into the array.
 
 5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_5.java)
+   Write a program that finds the second largest number in the array A [N] (print out a number that
+   is less than the maximum element of the array, but larger than all other elements).
 
 6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_6.java)
+   Write a method (s) that checks whether the given three numbers are coprime.
 
 7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_7.java)
+   Write a method (s) for calculating the sum of the factorials of all odd numbers from 1 to 9.
 
 8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_8.java)
+   An array D is given. Determine the following sums: D [l] + D [2] + D [3]; D [3] + D [4] + D [5];
+   D [4] + D [5] + D [6]. Explanation. Create a method (s) to calculate the sum of three consecutive
+   array elements with numbers from k to m.
 
 9. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_9.java)
+   The numbers X, Y, Z, T are given - the lengths of the sides of the quadrangle. Write a method(s)
+   for calculating its area if there is a right angle between sides of length X and Y.
 
 10. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_10.java)
+    A natural number N is given. Write a method (methods) for forming an array, the elements of
+    which are the digits of the number N.
 
 11. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_11.java)
+    Write a method(s) that determines which of the given two numbers has more digits.
 
 12. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_12.java)
+    Natural numbers K and N are given. Write a method (methods) for forming an array A, the elements
+    of which are numbers, the sum of the digits of which is equal to K and which are not greater
+    than N.
 
 13. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_13.java)
+    Two primes are called "twins" if they differ from each other by 2 (for example, 41 and 43). Find
+    and print all pairs of "twins" from the segment [n, 2n], where n is a given natural number
+    greater than 2. To solve the task, use the decomposition.
 
 14. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_14.java) [[True Armstrong number]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_14_True_Armstrong_number.java)
+    A natural number with n digits in it is called the Armstrong number if the sum of its digits
+    raised to the power n is equal to the number itself. Find all Armstrong numbers from 1 to k. To
+    solve the task, use decomposition.
 
 15. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_15.java)
+    Find all natural n-digit numbers whose digits form a strictly increasing sequence (for example,
+    1234, 5789). To solve the task, use decomposition.
 
 16. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_16.java)
+    Write a program that determines the sum of n-digit numbers containing only odd digits. Also
+    determine how many even digits are in the found amount. To solve the task, use decomposition.
 
 17. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/algorithmization/decomposition/Task_17.java)
-
+    The sum of its digits was subtracted from the given number. The sum of its digits was again
+    subtracted from the result, etc. How many such actions must be performed to get zero? To solve
+    the task, use decomposition.
