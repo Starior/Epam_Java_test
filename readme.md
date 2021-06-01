@@ -317,3 +317,62 @@
     The sum of its digits was subtracted from the given number. The sum of its digits was again
     subtracted from the result, etc. How many such actions must be performed to get zero? To solve
     the task, use decomposition.
+
+## 3. Strings and basics of text processing
+
+### Working with a string as an array of characters
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_array/Task_1.java)
+   An array of camelCase variable names is given. Convert titles to snake_case.
+
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_array/Task_2.java)
+   Replace all occurrences of 'word' in the string with 'letter'.
+
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_array/Task_3.java)
+   Find the amount of digits in the string.
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_array/Task_4.java)
+   Find the amount of numbers in the string.
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_array/Task_5.java)
+   Remove all extra spaces in the line, that is, replace series of consecutive spaces with single
+   spaces. Remove trailing spaces in the line.
+
+### Working with a string as an object of type String or StringBuilder
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_1.java)
+   A text(string) is given. Find the largest number of consecutive spaces in it.
+
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_2.java)
+   In the line insert after each 'a' character 'b'.
+
+3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_3.java)
+   Check if the given word is a palindrome.
+
+4. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_4.java)
+   Use the copy function and the concatenation operation to form the word “total” from the parts of
+   the word “atoll”.
+
+5. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_5.java)
+   Count how many times the letter "a" occurs among the characters of a given string.
+
+6. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_6.java)
+   Get a new one from the given string by repeating each character twice.
+
+7. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_7.java)
+   A string is entered. It is required to remove duplicate characters and all spaces from it. For
+   example, if "abc cdedef" was entered, then "abcdef" should be output.
+
+8. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_8.java) [[via String[]]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_8_String_Array.java)
+   A string of words is entered, separated by spaces. Find the longest word and display it on the
+   screen. The case when there may be several longest words, do not process.
+
+9. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_9.java)
+   Count the number of lowercase and uppercase letters in the entered line. Consider only English
+   letters.
+
+10. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/string_as_object/Task_10.java)
+    Line X consists of several sentences, each ending with a dot, exclamation mark, or question
+    mark. Determine the number of sentences in line X.
+
+### Working with regular expressions (Pattern, Matcher)
