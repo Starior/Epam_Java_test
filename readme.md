@@ -191,7 +191,7 @@
     A magic square of order N is an NxN square matrix composed of the numbers 1, 2, 3, ..., N<sup>
     2</sup> so that the sums for each column, each row and each of the two large diagonals are
     equal. Construct such a square. An example of a magic square of order 3:
-    <p align="center"> 6 1 8 </p><p align="center"> 7 5 3 </p><p align="center"> 2 9 4 </p>
+    <p align="center"> 6 1 8 <br/> 7 5 3 <br/> 2 9 4 </p>
 
 ### One-dimensional arrays - sorting
 
