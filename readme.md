@@ -376,3 +376,11 @@
     mark. Determine the number of sentences in line X.
 
 ### Working with regular expressions (Pattern, Matcher)
+
+1. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/regular_expressions/Task_1.java)
+   Create an application that parses the text (the text is stored in a line) and allows you to
+   perform three different operations with the text: sort paragraphs by the number of sentences;
+   sort words by length in each sentence; sort lexemes in a sentence in descending order of the
+   number of occurrences of a given symbol, and in case of equality, alphabetically.
+   
+2. 

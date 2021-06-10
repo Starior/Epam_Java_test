@@ -24,6 +24,7 @@ public class Task_10 {
         countSentences++;
       }
     }
+
     System.out.println(
         "the number of sentences in line X is " + countSentences);
   }
