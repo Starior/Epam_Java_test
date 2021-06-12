@@ -383,4 +383,23 @@
    sort words by length in each sentence; sort lexemes in a sentence in descending order of the
    number of occurrences of a given symbol, and in case of equality, alphabetically.
    
-2. 
+2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/strings/regular_expressions/Task_2.java) Given a string containing the following text (XML document):
+```xml
+<notes>
+  <note id="1">
+    <to>Вася</to>
+    <from>Света</from>
+    <heading>Напоминание</heading>
+    <body>Позвони мне завтра!</body>
+  </note>
+  <note id="2">
+    <to>Петя</to>
+    <from>Маша</from>
+    <heading>Важное напоминание</heading>
+    <body/>
+  </note>
+</notes>
+```
+Write an analyzer that allows you to sequentially return the contents of the nodes of an xml
+document and its type (opening tag, closing tag, tag content, tag without body). You cannot use
+ready-made XML parsers to solve this problem.
