@@ -46,7 +46,7 @@ public class Task_2 {
     Pattern startTag = Pattern.compile("<[\\w=\"\\s]+>");
     Pattern endTag = Pattern.compile("<(/+[\\w]+?)>");
     Pattern withoutBodyTag = Pattern.compile("<([\\w]+/)>");
-    Pattern content = Pattern.compile(">[\\wа-яА-яЁё\\\\s=\"\\s]+[!.?,]?</");
+    Pattern content = Pattern.compile(">[\\wа-яА-яЁё=\"\\s]+[!.?,]?</");
 
     for (String line : lines) {
 
