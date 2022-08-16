@@ -10,7 +10,7 @@
 
 2. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/linear/Task_2.java)
    Calculate the value of the expression using the formula (all variables are valid):
-   <p align="center"><img src="https://latex.codecogs.com/svg.image?z&space;=&space;&space;\frac{b&space;&plus;\sqrt{(b^{2}&space;&plus;&space;4&space;&space;a&space;&space;c)}&space;}{2a}&space;-&space;a^{3}&space;&space;c&space;&plus;&space;b^{-2}" title="z = \frac{b +\sqrt{(b^{2} + 4 a c)} }{2a} - a^{3} c + b^{-2}" /></p>
+   $$\frac{b+\sqrt{b^2+4ac}}{2a}-a^3c+b^{-2}$$
 
 3. [[link]](https://github.com/Starior/Epam_java_test/blob/master/src/com/starion/loki/basics/linear/Task_3.java)
    Calculate the value of the expression using the formula (all variables are valid):
